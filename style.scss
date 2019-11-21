@@ -1,0 +1,271 @@
+.container {
+  width: 1658px;
+  margin: 0 auto;
+  //height: 1250px;
+  padding: 60px 125px;
+}
+
+body {
+  font-family: 'Roboto',
+    sans-serif;
+}
+
+.text-compare {
+  border-top: 2px solid #7a7c7d;
+  padding-top: 5px;
+
+  h2 {
+    color: #2e2e32;
+    font-family: Roboto;
+    font-size: 27px;
+    font-weight: 700;
+  }
+
+  a {
+    color: #2e2e32;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: -50px;
+    display: flex;
+    justify-content: flex-end;
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    i {
+      padding-left: 10px;
+      padding-top: 2px;
+    }
+  }
+}
+
+.short-block {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+
+  .short-info {
+    display: flex;
+    align-items: flex-end;
+
+    table {
+      border-collapse: collapse;
+      color: #636565;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 400;
+
+      tr {
+
+
+        &:nth-child(2n) {
+          background-color: #e4e5e6;
+
+          td {
+            border: 1px solid #f1f1f1;
+          }
+        }
+
+        td {
+          width: 302px;
+          height: 60px;
+          text-align: left;
+          padding-left: 15px;
+          border: 1px solid #e4e5e6;
+        }
+      }
+    }
+
+  }
+
+  .info-product {
+
+
+    table {
+      border-collapse: collapse;
+      color: #636565;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 400;
+
+      tr {
+
+        &:nth-child(3n) {
+          background-color: #e4e5e6;
+
+          td {
+            border: 1px solid #f1f1f1;
+          }
+        }
+
+        td {
+          width: 302px;
+          height: 60px;
+          text-align: left;
+          padding-left: 15px;
+          border: 1px solid #e4e5e6;
+        }
+      }
+
+      .short-tbl-info {
+        font-size: 16px !important;
+      }
+
+      .product-item {
+        width: 249px;
+        padding: 30px 30px 40px 30px;
+
+        img {
+          padding: 0 40px 10px;
+        }
+
+        .available {
+          color: #67c530;
+          font-family: "Roboto Medium";
+          font-size: 15px;
+          font-weight: 500;
+          text-transform: uppercase;
+          text-decoration: none;
+          padding: 5px 47px;
+          border: 1px solid #67c530;
+          border-radius: 5px;
+          margin-left: 10px;
+        }
+
+        .name-prod {
+          margin: 13px 0 0 10px;
+          color: #636565;
+          font-family: "Roboto Light";
+          font-size: 19px;
+          font-weight: 300;
+        }
+
+        .character-prod {
+          color: #636565;
+          font-family: "Roboto Light";
+          font-size: 19px;
+          font-weight: 300;
+          margin: 5px 10px;
+
+        }
+
+        .price-prod {
+          color: #636565;
+          font-family: Roboto;
+          font-size: 22px;
+          font-weight: 700;
+          text-align: center;
+        }
+
+        .btn-buy-prod {
+          color: #ffffff;
+          font-family: "Roboto Medium";
+          font-size: 20px;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-weight: 500;
+          width: 240px;
+          height: 58px;
+          background-color: #2c57af;
+          padding: 10px 50px;
+          border-radius: 5px;
+          margin-left: 20px;
+
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+
+        .btn-delete-prod {
+          color: #636565;
+          font-family: Roboto;
+          font-size: 12px;
+          font-weight: 300;
+          text-decoration: none;
+          position: absolute;
+          margin: 40px -80px;
+
+          &:hover {
+            opacity: 0.8;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+.long-block {
+  margin-top: 60px;
+  border-bottom: 2px solid #7a7c7d;
+  padding-bottom: 50px;
+
+  h3 {
+    color: #2e2e32;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .long-info {
+    display: flex;
+    justify-content: space-between;
+
+    .btn-full-info {
+      position: absolute;
+      margin: 390px 0 0 215px;
+      color: #636565;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 300;
+      text-decoration: none;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .table-long-block {
+    display: flex;
+    justify-content: space-between;
+
+    table {
+      border-collapse: collapse;
+      color: #636565;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 400;
+
+      tr {
+
+
+        &:nth-child(2n) {
+          background-color: #e4e5e6;
+
+          td {
+            border: 1px solid #f1f1f1;
+          }
+        }
+
+        td {
+          width: 302px;
+          height: 60px;
+          text-align: left;
+          padding-left: 15px;
+          border: 1px solid #e4e5e6;
+        }
+      }
+    }
+
+    .long-character-prod {
+      table tr {
+        font-size: 14px;
+      }
+    }
+  }
+}
